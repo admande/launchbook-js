@@ -16,10 +16,10 @@ comments[lastCommentIndex];
 // Exercise: Find the fourth comment on the page.
 document.getElementsByClassName('post')[3];
 // Exercise: Find one of the ads in the sidebar and hide them.
-var statusUpdateForm = document.getElementsByClassName('ads')[0];
+var statusUpdateForm = document.getElementsByClassName('ad-slot')[0];
 statusUpdateForm.style.visibility = "hidden";
 // Exercise: Set the visibility to the form that you hid in the previous step to make it visible again.
-var statusUpdateForm = document.getElementsByClassName('ads')[0];
+var statusUpdateForm = document.getElementsByClassName('ad-slot')[0];
 statusUpdateForm.style.visibility = "visible";
 // Exercise: Use setAttribute to change src attribute of one of the ads in the sidebar.
 var sourceUpdate = document.getElementsByClassName('ads')[0];
